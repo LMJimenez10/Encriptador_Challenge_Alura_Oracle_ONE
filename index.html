@@ -6,6 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Encriptador de texto</title>
   <link rel="stylesheet" href="style.css">
+
+  
+  <style>
+    .footer {
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: rgb(70, 111, 187);
+       color: black;
+       text-align: center;
+    }
+  </style>
+  
 </head>
 <body>
   <h1 class="titulo">Encriptador de texto</h1>
@@ -14,7 +28,7 @@
     <section class="form box">
       <form action="">
         <label for="input-texto">Solo letras minúsculas, sin acento y sin caracteres especiales</label>
-        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto que desees">
         <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
         <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
       </form>
@@ -27,5 +41,10 @@
     </section>
   </main>
   <script src="./script.js"></script>
+
+  <div class="footer">
+    <p>Desarrollado por Luciano Jiménez</p>
+  </div>
+
 </body>
 </html>
